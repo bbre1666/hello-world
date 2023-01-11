@@ -2,7 +2,9 @@ Imports System
 
 Module Program
     Sub Main(args As String())
+        Dim massage As String = ""
         Console.WriteLine("Hello World!")
-        Console.Read()
+        Console.ReadLine()
+        Console.WriteLine($"you said:{message}!")
     End Sub
 End Module
